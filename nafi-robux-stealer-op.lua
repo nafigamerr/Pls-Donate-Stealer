@@ -108,7 +108,7 @@ local function showDonationPopup(username, robuxAmount)
     local clone = player.PlayerGui.UITemplates.donationPopup:Clone()
 
     
-    local Donation_Text = username .. " DONATED " .. robuxAmount .. " ‚ TO YOU!"
+    local Donation_Text = username .. " DONATED " .. robuxAmount .. "  TO YOU!"
     clone.Message.Text = Donation_Text
     clone.Transparency = 1
     clone.UIScale.Scale = 0
